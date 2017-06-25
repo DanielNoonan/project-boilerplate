@@ -1,5 +1,5 @@
 {
-    "name": "Project Title",
+    "name": "project-title",
     "version": "1.0.0",
     "dependencies": {
         "normalize.css": "^7.0.0"
