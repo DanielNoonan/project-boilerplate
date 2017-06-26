@@ -2,9 +2,9 @@
 
 2). Create a Git Repository and copy the CONTENTS of the 'project-starter' folder into it.
 
-3). Install all the dependencies by navigating to the new project folder in the command line and typing: npm install
+3). Open 'package.json' file and change the 'name' field appropriately.
 
-4). Open 'package.json' file and change the 'name' field appropriately.
+4). Install all the dependencies by navigating to the new project folder in the command line and typing: npm install
 
 5). Add flex-grid, flex-nav if required.
 
