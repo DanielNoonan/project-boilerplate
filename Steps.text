@@ -8,4 +8,7 @@
 
 5). Add flex-grid, flex-nav if required.
 
-6). Carry out the initial 'Commit' and 'Git Push' to the 'Master Branch'.
+6). Check everything is working: On the _global.css file make an arbitrary change (for example delete and retype a semi-colon) and then save.
+	This will trigger Postcss to compile to the styles.css file. Now you can check that the test webpage styles are being applied.
+
+7). Carry out the initial 'Commit' and 'Git Push' to the 'Master Branch'.
