@@ -1,0 +1,183 @@
+/***  flexgrid  */
+
+
+/*box-sizing must be border box for the column calc() widths to work out and fit precisely.*/
+
+
+/*This has been included in the _global.css file*/
+
+
+/*
+* {
+    box-sizing: border-box;
+}
+*/
+
+
+/*Demo styles to help visualise the layout*/
+
+.demo-styles {
+    background: pink;
+    text-align: center;
+    border: 1px solid red;
+    padding: 80px 0;
+}
+
+
+/************************************/
+
+
+/*********** FLEXBOX GRID ***********/
+
+
+/************************************/
+
+
+/*     Standard Row Settings     */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*  Classes For Small Sized Screens  */
+
+.small-12 {
+    flex: 0 0 100%;
+}
+
+.small-11 {
+    flex: 0 0 calc(100% / 12 * 11);
+}
+
+.small-10 {
+    flex: 0 0 calc(100% / 12 * 10);
+}
+
+.small-9 {
+    flex: 0 0 calc(100% / 12 * 9);
+}
+
+.small-8 {
+    flex: 0 0 calc(100% / 12 * 8);
+}
+
+.small-7 {
+    flex: 0 0 calc(100% / 12 * 7);
+}
+
+.small-6 {
+    flex: 0 0 calc(100% / 12 * 6);
+}
+
+.small-5 {
+    flex: 0 0 calc(100% / 12 * 5);
+}
+
+.small-4 {
+    flex: 0 0 calc(100% / 12 * 4);
+}
+
+.small-3 {
+    flex: 0 0 calc(100% / 12 * 3);
+}
+
+.small-2 {
+    flex: 0 0 calc(100% / 12 * 2);
+}
+
+.small-1 {
+    flex: 0 0 calc(100% / 12 * 1);
+}
+
+
+/*     Media Queries     */
+
+
+/*  Classes For Medium Sized Screens  */
+
+@media all and (min-width: 800px) {
+    .medium-12 {
+        flex: 0 0 100%;
+    }
+    .medium-11 {
+        flex: 0 0 calc(100% / 12 * 11);
+    }
+    .medium-10 {
+        flex: 0 0 calc(100% / 12 * 10);
+    }
+    .medium-9 {
+        flex: 0 0 calc(100% / 12 * 9);
+    }
+    .medium-8 {
+        flex: 0 0 calc(100% / 12 * 8);
+    }
+    .medium-7 {
+        flex: 0 0 calc(100% / 12 * 7);
+    }
+    .medium-6 {
+        flex: 0 0 calc(100% / 12 * 6);
+    }
+    .medium-5 {
+        flex: 0 0 calc(100% / 12 * 5);
+    }
+    .medium-4 {
+        flex: 0 0 calc(100% / 12 * 4);
+    }
+    .medium-3 {
+        flex: 0 0 calc(100% / 12 * 3);
+    }
+    .medium-2 {
+        flex: 0 0 calc(100% / 12 * 2);
+    }
+    .medium-1 {
+        flex: 0 0 calc(100% / 12 * 1);
+    }
+}
+
+
+/*  Classes For Large Sized Screens  */
+
+@media all and (min-width: 1024px) {
+    .large-12 {
+        flex: 0 0 100%;
+    }
+    .large-11 {
+        flex: 0 0 calc(100% / 12 * 11);
+    }
+    .large-10 {
+        flex: 0 0 calc(100% / 12 * 10);
+    }
+    .large-9 {
+        flex: 0 0 calc(100% / 12 * 9);
+    }
+    .large-8 {
+        flex: 0 0 calc(100% / 12 * 8);
+    }
+    .large-7 {
+        flex: 0 0 calc(100% / 12 * 7);
+    }
+    .large-6 {
+        flex: 0 0 calc(100% / 12 * 6);
+    }
+    .large-5 {
+        flex: 0 0 calc(100% / 12 * 5);
+    }
+    .large-4 {
+        flex: 0 0 calc(100% / 12 * 4);
+    }
+    .large-3 {
+        flex: 0 0 calc(100% / 12 * 3);
+    }
+    .large-2 {
+        flex: 0 0 calc(100% / 12 * 2);
+    }
+    .large-1 {
+        flex: 0 0 calc(100% / 12 * 1);
+    }
+}
+
+
+/****************************************************************/
