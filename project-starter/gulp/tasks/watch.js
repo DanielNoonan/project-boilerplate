@@ -16,8 +16,8 @@ gulp.task('watch', function () {
         }
     });
 
-    //watch our index.html and refresh the webpage on save
-    watch('./app/index.html', function () {
+    //watch all HTML files in the app directory and refresh the webpage on save
+    watch('./app/*.html', function () {
         browserSync.reload();
     });
 
