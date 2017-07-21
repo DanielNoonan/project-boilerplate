@@ -36,8 +36,6 @@
 /*     Standard Row Settings     */
 
 .row {
-    width: 100%;
-    /**Added this to force each row onto a new line**/
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
